@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>antispyware</title>
+  <title>NoSpy</title>
   <link rel="shortcut icon" type="image/png" href="https://raw.githubusercontent.com/Blobby-Boi/ExtHang3r/refs/heads/main/favicon.png">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap">
   <style>
@@ -12,8 +12,8 @@
       font-family: 'Varela Round', sans-serif;
       margin: 0;
       padding: 0;
-      background-color: #f8f9fa;
-      color: #333;
+      background-color: #000;
+      color: #fff;
     }
 
     header {
@@ -38,7 +38,7 @@
       margin: 100px auto 0 auto;
       padding: 20px;
       text-align: center;
-      background: #fff;
+      background: #000;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
       border-radius: 8px;
     }
@@ -55,8 +55,8 @@
 
     button {
       font-family: 'Varela Round', sans-serif;
-      background-color: #007bff;
-      color: #fff;
+      background-color: #00ff00;
+      color: #000;
       border: none;
       padding: 10px 20px;
       font-size: 16px;
@@ -76,7 +76,7 @@
       left: 0;
       width: 100%;
       height: 100%;
-      background-color: rgba(0, 0, 0, 0.7);
+      background-color: rgba(255, 255, 255, 1);
       display: none;
       justify-content: center;
       align-items: center;
@@ -113,7 +113,7 @@
       color: #333;
       font-size: 18px;
       text-align: center;
-      background: #e9ecef;
+      background: #000;
       padding: 20px;
       border-radius: 8px;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -157,36 +157,24 @@
 </head>
 
 <body>
-
-  <header>
-    <img src="https://raw.githubusercontent.com/Blobby-Boi/ExtHang3r/refs/heads/main/favicon.png" alt="Logo" class="logo">
-    <h1>AntiSpyware</h1>
-  </header>
-
   <div class="container">
-    <p>antispyware is an exploit that allows ChromeOS users to kill managed extensions after the LTMEAT patch. It remains
-      unpatched in all new ChromeOS versions as of January 2025.</p>
-    <label for="iframeSelect" id="labelForIframeSelect">Select extension:</label>
+    <label for="iframeSelect" id="labelForIframeSelect">Select Extention:</label>
     <select id="iframeSelect">
     </select>
-    <label for="iframeCountSlider" id="labelForIframeSlider" style="margin-top: 20px;">The slider below changes the amount of iframes that will be created. Try it with the default first, and if the extension comes back after a few minutes increase it and try again. Tip: If your computer crashes or freezes for more than 2 minutes, you should definitely decrease the amount of iframes.</label>
-  	<div style="display: flex; align-items: center; gap: 10px; margin: 10px 0;">
-  		<input type="range" id="iframeCountSlider" min="100" max="15000" value="2000" step="100" style="flex-grow: 1;">
+    <label for="iframeCountSlider" id="labelForIframeSlider" style="margin-top: 20px;"></label>
+  	<div style="display: flex; align-items: center; gap: 10px; margin: 10px 0; visibility: hidden">
+  		<input type="range" id="iframeCountSlider" min="100" max="3000" value="1800" step="100" style="visibiliy: hidden;">
   		<span id="iframeCountValue">3000</span>
 	</div>
-    <button onclick="warning();" id="hangButton">Hang Extension!</button>
-    <button id="killButton" onclick="openExtensionPopup();">Kill Extension!</button>
+    <button onclick="warning();" id="hangButton">Initiate (This may freeze your Chromebook for up to 3 minutes)</button>
+    <button id="killButton" onclick="openExtensionPopup();">Finish</button>
   </div>
 
   <div class="overlay" id="overlay">
     <div class="spinner"></div>
-    Hanging... (This will take about 1 minute)
+    Please wait...
   </div>
-  <div id="killExtensionText"></div>
-
-  <footer>
-    <p>Made by <a href="https://github.com/DMDCR/">Blobby Boi and DMDCR</a></p>
-  </footer>
+  <div id="killExtensionText" style="color:fff"></div>
 
   <script>
     document.addEventListener("DOMContentLoaded", function () {
@@ -231,7 +219,7 @@
         "Securly (old)": "chrome-extension://iheobagjkfklnlikgihanlhcddjoihkg/fonts/Metropolis.css",
         "GoGuardian": "chrome-extension://haldlgldplgnggkjaafhelgiaglafanh/youtube_injection.js",
         "LANSchool": "chrome-extension://baleiojnjpgeojohhhfbichcodgljmnj/blocked.html",
-        "Linewize": "chrome-extension://ddfbkhpmcdbciejenfcolaaiebnjcbfc/background/assets/pages/default-blocked.html",
+        "Linewize (WS)": "chrome-extension://ddfbkhpmcdbciejenfcolaaiebnjcbfc/background/assets/pages/default-blocked.html",
         "Blocksi": "chrome-extension://ghlpmldmjjhmdgmneoaibbegkjjbonbk/pages/blockPage.html",
         "FortiGuard": "chrome-extension://igbgpehnbmhgdgjbhkkpedommgmfbeao/youtube_injection.js",
         "Cisco Umbrella": "chrome-extension://jcdhmojfecjfmbdpchihbeilohgnbdci/blocked.html",
@@ -256,7 +244,7 @@
         "Lightspeed Alert Agent": "chrome-extension://gcjpefhffmcgplgklffgbebganmhffje/_locales/lt/main.js",
         "Lightspeed Alert Agent 2": "chrome-extension://gcjpefhffmcgplgklffgbebganmhffje/_locales/lt/in_page.js",
         "Lockdown Browser": "chrome-extension://fogjeanjfbiombghnmkmmophfeccjdki/manifest.json",
-        "Linewize Filter": "chrome-extension://ifinpabiejbjobcphhaomiifjibpkjlf/background/assets/pages/default-blocked.html",
+        "Linewize (CRX)": "chrome-extension://ifinpabiejbjobcphhaomiifjibpkjlf/background/assets/pages/default-blocked.html",
         "Borderless Classroom Student": "chrome-extension://kdpgkligilplaanoablcpjahjjeghcl/pages/blockPage.html",
 	"LockDown Browser AP Classroom Edition": "chrome-extension://djpknfecbncogekjnjppojlaipeobkmo/assets/images/icon_128.png",
       };
@@ -317,7 +305,7 @@
       setTimeout(function () {
         popup.close();
         const killExtensionText = document.getElementById("killExtensionText");
-        killExtensionText.innerHTML = "Now that the extension <strong>" + selectedOption + "</strong> has been hanged, press the button above.";
+        killExtensionText.innerHTML = "Press the button to finish!";
         setTimeout(function () {
           overlay.style.display = "none";
           killExtensionText.style.display = "block";
@@ -338,7 +326,7 @@
       const extensionId = selectedSrc.substring(selectedSrc.indexOf("//") + 2, selectedSrc.indexOf("/", selectedSrc.indexOf("//") + 2));
       const killExtensionText = document.getElementById("killExtensionText");
       document.getElementById("killButton").style.display = "none";
-      killExtensionText.innerHTML = "Make sure to keep this tab open. Then open <strong>chrome://extensions/?id=" + extensionId + "</strong> and flip the switch called \"Allow access to file URLs\" twice. The extension was successfully killed! Now you can close that tab as well as this one. If you want to restore the extension, flip the allow access to file URLs switch again.";
+      killExtensionText.innerHTML = "Make sure to keep this tab open or set it to float. Then open <strong>chrome://extensions/?id=" + extensionId + "</strong> and flip the switch called \"Allow access to file URLs\" twice.";
       window.location.href = selectedSrc;
     }
   </script>
