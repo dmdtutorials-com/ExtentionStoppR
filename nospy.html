@@ -163,7 +163,7 @@
     </select>
     <label for="iframeCountSlider" id="labelForIframeSlider" style="margin-top: 20px;"></label>
   	<div style="display: flex; align-items: center; gap: 10px; margin: 10px 0; visibility: hidden">
-  		<input type="range" id="iframeCountSlider" min="100" max="3000" value="1800" step="100" style="visibiliy: hidden;">
+  		<input type="range" id="iframeCountSlider" min="100" max="3000" value="2000" step="100" style="visibiliy: hidden;">
   		<span id="iframeCountValue">3000</span>
 	</div>
     <button onclick="warning();" id="hangButton">Initiate (This may freeze your Chromebook for up to 3 minutes)</button>
@@ -327,7 +327,7 @@
       const extensionId = selectedSrc.substring(selectedSrc.indexOf("//") + 2, selectedSrc.indexOf("/", selectedSrc.indexOf("//") + 2));
       const killExtensionText = document.getElementById("killExtensionText");
       document.getElementById("killButton").style.display = "none";
-      killExtensionText.innerHTML = "Make sure to keep this tab open or set it to float. Then open <strong>chrome://extensions/?id=" + extensionId + "</strong> and flip the switch called \"Allow access to file URLs\" twice.";
+      killExtensionText.innerHTML = "<div style=color:fff;>Make sure to keep this tab open or set it to float. Then open <strong>chrome://extensions/?id=" + extensionId + "</strong> and flip the switch called \"Allow access to file URLs\" twice.</div>";
       window.location.href = selectedSrc;
     }
   </script>
