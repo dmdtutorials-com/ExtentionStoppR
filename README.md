@@ -4,8 +4,16 @@ makes ChromeOS forget that extentions should run.
 # Instructions:
 
 ## Type 1. "Normal Mode" *(uses lots of resources)*
-Simply run the exploit like normal and it'll keep your extention frozen 
+* Step 1: Download [`nospy.html`](https://github.com/dmdtutorials-com/NoSpy/blob/main/nospy.html) and save it somewhere where you won't lose it, like in your google drive.
 
+* Step 2: Run the `nospy.html` file and press initiate, this may take a while
+
+* Step 3: When it's done, find your extention in the extentions bar, right click it, and click `Manage extention`
+
+* Step 4: Scroll down and Click `Allow File URLs` Twice
+
+* Step 5: Don't close the `nospy.html` page and you're done! *(The name of the page is supposed to be "Loading" so it doesn't stand out)*
+  
 ## Type 2. "NospyBoot" *(uses significantly less resources when finished)*
 
 * Step 1: Pin your spyware extention
