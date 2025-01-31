@@ -33,3 +33,7 @@ makes ChromeOS forget that extentions should run.
 
 
 *Type 2 has only been tested with Linewise, if it doesnt work on another extention, create a pull request or submit an issue :D*
+
+
+# How to Disable (Type 2):
+- Simply press `Reload + Power Button` and it'll reboot your chromebook back to normal.
