@@ -4,7 +4,8 @@ Based off of **LTMEAT** and [https://github.com/Blobby-Boi/ExtHang3r](ExtHang3r)
 #
 # Instructions:
 
-## Type 1. "Normal Mode" *(uses lots of resources, if you cannot use NoSpyBoot, please use [https://github.com/Blobby-Boi/ExtPrint3r](ExtPrint3r) instead!*
+## Type 1. "Normal Mode" 
+*(uses lots of resources, if you cannot use NoSpyBoot, please use [https://github.com/Blobby-Boi/ExtPrint3r](ExtPrint3r) instead!*
 * Step 1: Download [`nospy.html`](https://github.com/dmdtutorials-com/NoSpy/blob/main/nospy.html) and save it somewhere where you won't lose it, like in your google drive.
 
 * Step 2: Run the `nospy.html` file and press initiate, this may take a while
