@@ -1,10 +1,8 @@
 # NoSpy Exploit
 makes ChromeOS forget that extentions should run.
 Based off of **LTMEAT** and [ExtHang3r](https://github.com/Blobby-Boi/ExtHang3r). 
--------
-### Announcement:
-Nospy has been leaked, and was stolen by @Anasthefirst, who snuck onto my chromebook and gave himself access. if the software is misused by them, I am not responsible for their actions, as this software was only intended for people I trust.
-#
+
+----------------------------------------
 # Instructions:
 
 ## Type 1. "Normal Mode" 
@@ -38,13 +36,14 @@ Nospy has been leaked, and was stolen by @Anasthefirst, who snuck onto my chrome
 
 
 *Type 2 has only been tested with Linewise, if it doesnt work on another extention, create a pull request or submit an issue :D*
-
-
+ 
+-------
 # How to Disable (Type 2):
 - Simply press `Reload + Power Button` and it'll reboot your chromebook back to normal.
 
 
 -----------------
+# License
 BSD 2-Clause License
 
 Copyright (c) 2025, dmdtutorials.com
