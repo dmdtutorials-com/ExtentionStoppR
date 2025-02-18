@@ -1,4 +1,4 @@
-# NoSpy Exploit
+# ExtentionStoppR Exploit
 makes ChromeOS forget that extentions should run.
 Based off of **LTMEAT** and [ExtHang3r](https://github.com/Blobby-Boi/ExtHang3r). 
 
@@ -8,18 +8,18 @@ Based off of **LTMEAT** and [ExtHang3r](https://github.com/Blobby-Boi/ExtHang3r)
 # Instructions:
 
 ## Type 1. "Normal Mode" 
-*(uses lots of resources, if you cannot use NoSpyBoot, please use [ExtPrint3r](https://github.com/Blobby-Boi/ExtPrint3r) instead, as it uses significantly less resources, and is easier to use.*
+*(uses lots of resources, if you cannot use ExtentionStoppRBoot, please use [ExtPrint3r](https://github.com/Blobby-Boi/ExtPrint3r) instead, as it uses significantly less resources, and is easier to use.*
 * Step 1: Download the repository's source code and save it somewhere where you won't lose it, like in your google drive.
 
-* Step 2: Run the `nospy.html` file and press initiate, this may take a while
+* Step 2: Run the `ExtentionStoppR.html` file and press initiate, this may take a while
 
 * Step 3: When it's done, find your extention in the extentions bar, right click it, and click `Manage extention`
 
 * Step 4: Scroll down and Click `Allow File URLs` Twice
 
-* Step 5: Don't close the `nospy.html` page and you're done!
+* Step 5: Don't close the `ExtentionStoppR.html` page and you're done!
   
-## Type 2. "NospyBoot" *(uses significantly less resources when finished)*
+## Type 2. "ExtentionStoppRBoot" *(uses significantly less resources when finished)*
 
 * Step 1: Pin the extention you want to disable
 
@@ -46,11 +46,11 @@ Based off of **LTMEAT** and [ExtHang3r](https://github.com/Blobby-Boi/ExtHang3r)
 --------
 # Disclaimer:
 
-By using "NoSpy" in educational environments, you acknowledge that you have read and understood the potential risks involved. Using this exploit may result in:
+By using "ExtentionStoppR" in educational environments, you acknowledge that you have read and understood the potential risks involved. Using this exploit may result in:
 
 Suspension or expulsion : Your educational institution may take disciplinary action against you for using software intended to bypass security features.
 Consequences from administrators : You may face consequences from school administrators, including but not limited to detention, disciplinary action, or other penalties.
-Damage to relationships with peers and teachers. Using this exploit may potentially effect your academic performance and overall educational experience, use "NoSpy" at your own risk.
+Damage to relationships with peers and teachers. Using this exploit may potentially effect your academic performance and overall educational experience, use "ExtentionStoppR" at your own risk.
 
 By proceeding, you acknowledge that you have read and understood the potential consequences of using this project. You also agree to not hold the creators of this project, dmdtutorials.com, and any other parties involved in its development or distribution accountable for damages in any way.
 -----------------
