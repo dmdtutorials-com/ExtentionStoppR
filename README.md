@@ -1,6 +1,6 @@
 # NoSpy Exploit
 makes ChromeOS forget that extentions should run.
-Based off of **LTMEAT** and [https://github.com/Blobby-Boi/ExtHang3r](ExtHang3r). 
+Based off of **LTMEAT** and [ExtHang3r](https://github.com/Blobby-Boi/ExtHang3r). 
 -------
 ### Announcement:
 Nospy has been leaked, and was stolen by @Anasthefirst, who snuck onto my chromebook and gave himself access. if the software is misused by them, I am not responsible for their actions, as this software was only intended for people I trust.
@@ -8,7 +8,7 @@ Nospy has been leaked, and was stolen by @Anasthefirst, who snuck onto my chrome
 # Instructions:
 
 ## Type 1. "Normal Mode" 
-*(uses lots of resources, if you cannot use NoSpyBoot, please use [https://github.com/Blobby-Boi/ExtPrint3r](ExtPrint3r) instead!*
+*(uses lots of resources, if you cannot use NoSpyBoot, please use [ExtPrint3r](https://github.com/Blobby-Boi/ExtPrint3r) instead!*
 * Step 1: Download the repository's source code and save it somewhere where you won't lose it, like in your google drive.
 
 * Step 2: Run the `nospy.html` file and press initiate, this may take a while
