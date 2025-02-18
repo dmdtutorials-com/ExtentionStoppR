@@ -19,7 +19,7 @@ Based off of **LTMEAT** and [ExtHang3r](https://github.com/Blobby-Boi/ExtHang3r)
 
 * Step 5: Don't close the `ExtentionStoppR.html` page and you're done!
   
-## Type 2. "ExtentionStoppRBoot" *(uses significantly less resources when finished)*
+## Type 2. "NoJavascriptBoot" *(uses significantly less resources when finished)*
 
 * Step 1: Pin the extention you want to disable
 
