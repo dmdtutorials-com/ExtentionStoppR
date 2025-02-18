@@ -9,7 +9,7 @@ Nospy has been leaked, and was stolen by @Anasthefirst, who snuck onto my chrome
 
 ## Type 1. "Normal Mode" 
 *(uses lots of resources, if you cannot use NoSpyBoot, please use [https://github.com/Blobby-Boi/ExtPrint3r](ExtPrint3r) instead!*
-* Step 1: Download [`nospy.html`](https://github.com/dmdtutorials-com/NoSpy/blob/main/nospy.html) and save it somewhere where you won't lose it, like in your google drive.
+* Step 1: Download the repository's source code and save it somewhere where you won't lose it, like in your google drive.
 
 * Step 2: Run the `nospy.html` file and press initiate, this may take a while
 
