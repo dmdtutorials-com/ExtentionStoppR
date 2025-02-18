@@ -33,7 +33,9 @@ Based off of **LTMEAT** and [ExtHang3r](https://github.com/Blobby-Boi/ExtHang3r)
 
 * Step 6: Once you are signed in, click on your extention and if nothing loads, (or it says that Javascript / The extention itself is disabled), it worked.
 
-* Step 7: Ta-da! You just found out how bad ChromeOS is.
+* Step 7: Close the exploit's tab, and the extention's page.
+
+* Step 8: Ta-da! You just found out how bad ChromeOS is.
 
 #### 
 
