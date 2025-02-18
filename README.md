@@ -1,6 +1,7 @@
 # NoSpy Exploit
 makes ChromeOS forget that extentions should run.
 Based off of **LTMEAT** and [https://github.com/Blobby-Boi/ExtHang3r](ExtHang3r). 
+Nospy has been leaked, and was stolen by @Anasthefirst, who snuck onto my chromebook and gave himself access. if the software is misused by him, I am not responsible for his actions, as this software was only intended for people I trust.
 #
 # Instructions:
 
