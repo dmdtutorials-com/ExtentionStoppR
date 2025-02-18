@@ -50,7 +50,7 @@ By using "NoSpy" in educational environments, you acknowledge that you have read
 
 Suspension or expulsion : Your educational institution may take disciplinary action against you for using software intended to bypass security features.
 Consequences from administrators : You may face consequences from school administrators, including but not limited to detention, disciplinary action, or other penalties.
-Damage to relationships with peers and teachers : Using this exploit may damage your relationships with classmates and teachers, potentially affecting your academic performance and overall educational experience. Use "NoSpy" at your own risk.
+Damage to relationships with peers and teachers. Using this exploit may potentially effect your academic performance and overall educational experience, use "NoSpy" at your own risk.
 
 By proceeding, you acknowledge that you have read and understood the potential consequences of using this project. You also agree to not hold the creators of this project, dmdtutorials.com, and any other parties involved in its development or distribution accountable for damages in any way.
 -----------------
