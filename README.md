@@ -2,6 +2,8 @@
 makes ChromeOS forget that extentions should run.
 Based off of **LTMEAT** and [ExtHang3r](https://github.com/Blobby-Boi/ExtHang3r). 
 
+*This project is a tech demo, and is not intended to be misused, and should only be used when permitted by your administrator if used in an unintentional way. I do not promote academic dishonesty, and simply want to highlight issues in Google's awful operating system*
+####  
 ----------------------------------------
 # Instructions:
 
