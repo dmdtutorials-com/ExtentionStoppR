@@ -8,7 +8,7 @@ Based off of **LTMEAT** and [ExtHang3r](https://github.com/Blobby-Boi/ExtHang3r)
 # Instructions:
 
 ## Type 1. "Normal Mode" 
-*(uses lots of resources, if you cannot use ExtentionStoppRBoot, please use [ExtPrint3r](https://github.com/Blobby-Boi/ExtPrint3r) instead, as it uses significantly less resources, and is easier to use.*
+*(uses lots of resources, if you cannot use NoJavBoot, please use [ExtPrint3r](https://github.com/Blobby-Boi/ExtPrint3r) instead, as it uses significantly less resources, and is easier to use.*
 * Step 1: Download the repository's source code and save it somewhere where you won't lose it, like in your google drive.
 
 * Step 2: Run the `ExtentionStoppR.html` file and press initiate, this may take a while
