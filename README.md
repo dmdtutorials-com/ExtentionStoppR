@@ -54,7 +54,7 @@ Suspension or expulsion : Your educational institution may take disciplinary act
 Consequences from administrators : You may face consequences from school administrators, including but not limited to detention, disciplinary action, or other penalties.
 Damage to relationships with peers and teachers. Using this exploit may potentially effect your academic performance and overall educational experience, use "ExtentionStoppR" at your own risk.
 
-By proceeding, you acknowledge that you have read and understood the potential consequences of using this project. You also agree to not hold the creators of this project, dmdtutorials.com, and any other parties involved in its development or distribution accountable for damages in any way.
+By proceeding, you acknowledge that you have read and understood the potential consequences of using this project. You also agree to not hold the creators of this project, dmdtutorials.com, DMD™, and any other parties involved in its development or distribution accountable for damages in any way.
 -----------------
 # License
 BSD 2-Clause License
