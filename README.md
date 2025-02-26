@@ -1,5 +1,5 @@
 # ExtentionStoppR Exploit
-makes ChromeOS forget that extentions should run.
+makes ChromeOS forget that extentions should run, or think.
 Based off of **LTMEAT** and [ExtHang3r](https://github.com/Blobby-Boi/ExtHang3r). 
 
 *This project is a tech demo, and is not intended to be misused, and should only be used for security research. I do not promote academic dishonesty, and simply want to highlight issues in Google's awful operating system. Please do not use this to get around restrictions set by companies or school districts.*
