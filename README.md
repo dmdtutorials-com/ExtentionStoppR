@@ -1,4 +1,6 @@
 # ExtentionStoppR Exploit
+Patched in ChromeOS version: `134.0.6998.130`
+
 makes ChromeOS forget that extentions should run, or think.
 Based off of **LTMEAT** and [ExtHang3r](https://github.com/Blobby-Boi/ExtHang3r). 
 
