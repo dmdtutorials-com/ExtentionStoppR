@@ -21,7 +21,7 @@ Based off of **LTMEAT** and [ExtHang3r](https://github.com/Blobby-Boi/ExtHang3r)
 
 * Step 5: Don't close the `ExtentionStoppR.html` page and you're done!
   
-## Type 2. "NoJavBoot" *(uses significantly less resources when completed)*
+## Type 2. "NoJavBoot" *(uses significantly less resources when completed, CAN BE DONE USING [ExtPrint3r](https://github.com/Blobby-Boi/ExtPrint3r) too if your chromebook sucks, just start on step 4.)*
 
 * Step 1: Pin the extention you want to disable
 
@@ -29,7 +29,7 @@ Based off of **LTMEAT** and [ExtHang3r](https://github.com/Blobby-Boi/ExtHang3r)
 
 * Step 3: Click on the extention you just pinned, if it doesn't load, continue to step 4, if it loads, press `Reload + Power Button` and retry the exploit from the start
 
-* Step 4: If step 3 succeeds, stay on the page for the exploit, press ` Esc + Reload + Power Button `
+* Step 4: If step 3 succeeds or the extention is no longer loading, stay on the page for the exploit, click the extention, and press ` Esc + Reload + Power Button `
 
 * Step 5: Whenever you reach the recovery page, press ` Reload + Power Button ` within 10 seconds.
 
