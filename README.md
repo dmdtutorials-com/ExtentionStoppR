@@ -1,5 +1,5 @@
 # ExtentionStoppR Exploit
-Patched in ChromeOS version: `134.0.6998.130`
+unPatched in ChromeOS version: `134.0.6998.130`
 
 makes ChromeOS forget that extentions should run, or think.
 Based off of **LTMEAT** and [ExtHang3r](https://github.com/Blobby-Boi/ExtHang3r). 
@@ -33,9 +33,9 @@ Based off of **LTMEAT** and [ExtHang3r](https://github.com/Blobby-Boi/ExtHang3r)
 
 * Step 5: Whenever you reach the recovery page, press ` Reload + Power Button ` within 10 seconds.
 
-* Step 6: Once you are signed in, click on your extention and if nothing loads, (or it says that Javascript / The extention itself is disabled), it worked.
+* Step 6: Once you are signed in, Make sure you have NO TABS OPEN except chrome://newtab.
 
-* Step 7: Close the exploit's tab, and the extention's page.
+* Step 7: Click on your extention 1-3 times, see if it says it's disabled, or javascript isn't working. If it does continue to step 8, if it doesn't, retry the exploit.
 
 * Step 8: Ta-da! You just found out how bad ChromeOS is.
 
